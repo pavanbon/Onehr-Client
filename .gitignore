@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Deployment packages
+*.zip
+package/
+
+# Config and secrets
+config.json
+config_final.json
+config_singular.json
+dbeaver_creds.txt
+*.txt
+*.json
+!requirements.txt
+!package.json
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
